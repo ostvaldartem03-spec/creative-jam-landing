@@ -115,7 +115,7 @@ export default function CTA() {
             className="bg-white text-black hover:bg-gray-200 text-lg px-8 py-6 rounded-full font-medium transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)]"
             onClick={() => {
               // Переход на Cannes Oracle
-              const backendUrl = import.meta.env.VITE_BACKEND_URL || 'https://5000-i05s17mkvoa1kc1ntyvay-3d4d8d9d.manusvm.computer';
+              const backendUrl = import.meta.env.VITE_BACKEND_URL || 'https://3000-iuucjqoy63ll3rv32f8zc-905800ed.manusvm.computer';
               window.location.href = backendUrl + '/oracle';
             }}
           >
